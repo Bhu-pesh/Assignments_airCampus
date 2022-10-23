@@ -4,7 +4,7 @@ html, body {
 }
 
 .header {
-    width: 100vw;   
+    width: 99svw;   
     box-sizing: border-box; 
     background-color:aqua;
     display: flex;
@@ -198,5 +198,29 @@ button {
 
 .mid-grow div:nth-child(3) {
     flex-basis: 60vw;
+}
 
+.general-flex {
+    display: flex;    
+    justify-content: space-around;
+    gap: 2em;    
+    background-color: lightgray;
+    padding: 50px 20px;    
+}
+
+.footer {
+    width: 99vw;   
+    box-sizing: border-box; 
+    background-color:aqua;
+    display: flex;
+    justify-content: center; 
+}
+
+.social-media {
+    padding: 20px;
+}
+
+.social-media > img {
+    width: 30px;
+    height: 30px;
 }
