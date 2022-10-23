@@ -4,7 +4,8 @@ html, body {
 }
 
 .header {
-    width: 100vw;    
+    width: 100vw;   
+    box-sizing: border-box; 
     background-color:aqua;
     display: flex;
     justify-content: space-around;
@@ -158,4 +159,27 @@ button {
     height: 100px;
 }
 
+.first-positioning {
+    display: flex;
+    flex-direction: column;
+    align-content:space-around;
+    align-items: center;
+    border-bottom: 5px solid sienna;
+}
 
+.items-of-flex {
+    border: 5px solid aqua;
+    border-radius: 5px;
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.flex-with-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2em;
+    background-color: whitesmoke;
+}
