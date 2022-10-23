@@ -49,6 +49,12 @@ button {
 
 .container {
     background-color: lightgray;
+    padding: 50px 20px;
+}
+
+.container43 {
+    
+    padding: 100px 30px;
 }
 
 .square-container {
@@ -97,5 +103,14 @@ button {
     border-radius: 3px;
     width: 100px;
     height: 100px;
+}
+
+.square-container-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-content:space-between;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    height: 800px;
 }
 
