@@ -4,10 +4,10 @@ html, body {
 }
 
 .header {
-    width: 100vw;
+    width: 100vw;    
     background-color:aqua;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .mid-nav {
@@ -22,4 +22,15 @@ html, body {
 .mid-nav h2:hover {
     border-bottom: 3px solid brown;
     color: white;
+}
+
+.logIn {
+    align-self: center;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: beige;
+    font-weight: bold;
+    border-radius: 3px;
 }
