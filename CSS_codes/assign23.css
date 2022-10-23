@@ -16,7 +16,7 @@ html, body {
 
 .mid-nav h2 {
     color:brown;
-    padding: 5px;
+    padding: 5px 20px;
 }
 
 .mid-nav h2:hover {
@@ -33,4 +33,45 @@ button {
     background-color: beige;
     font-weight: bold;
     border-radius: 3px;
+}
+
+/* POSITIONING ELEMENETS WITH FLOATS */
+
+.heading-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.heading-section h3 {
+    align-self: center;
+}
+
+.square-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container {
+    box-sizing: border-box;
+    padding-left: 120px;
+    width: 350px;
+    height: 350px;
+    border: 3px solid maroon;
+}
+
+.square-box {
+    border: 5px solid aqua;
+    background-color: aquamarine;
+    border-radius: 3px;
+    width: 100px;
+    height: 100px;
+}
+
+.square-unique {
+    border: 5px solid orangered;
+    background-color: lightcoral;
+    border-radius: 3px;
+    width: 100px;
+    height: 100px;
 }
