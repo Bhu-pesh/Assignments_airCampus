@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100vw;
+    background-color:aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid-nav {
+    display: flex;
+}
+
+.mid-nav h2 {
+    color:brown;
+    padding: 5px;
+}
+
+.mid-nav h2:hover {
+    border-bottom: 3px solid brown;
+    color: white;
+}
