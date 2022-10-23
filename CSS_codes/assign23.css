@@ -182,4 +182,21 @@ button {
     justify-content: space-around;
     gap: 2em;
     background-color: whitesmoke;
+    background-color: lightgray;
+    padding: 50px 20px;
+    border-bottom: 5px solid sienna;
+}
+
+.mid-grow {
+    display: flex;    
+    justify-content: space-around;
+    gap: 2em;    
+    background-color: lightgray;
+    padding: 50px 20px;
+    border-bottom: 5px solid sienna;
+}
+
+.mid-grow div:nth-child(3) {
+    flex-basis: 60vw;
+
 }
