@@ -47,9 +47,14 @@ button {
     align-self: center;
 }
 
+.container {
+    background-color: lightgray;
+}
+
 .square-container {
     display: flex;
     justify-content: space-around;
+    
 }
 
 .flex-container {
@@ -58,6 +63,24 @@ button {
     width: 350px;
     height: 350px;
     border: 3px solid maroon;
+}
+
+.flex-container-2 {
+    box-sizing: border-box;
+    /* padding-left: 120px; */
+    width: 350px;
+    height: 350px;
+    border: 3px solid maroon;
+}
+
+.float-left-flow {
+    border: 5px solid orangered;
+    background-color: gold;
+    border-radius: 3px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 30px;
 }
 
 .square-box {
@@ -70,8 +93,9 @@ button {
 
 .square-unique {
     border: 5px solid orangered;
-    background-color: lightcoral;
+    background-color: gold;
     border-radius: 3px;
     width: 100px;
     height: 100px;
 }
+
