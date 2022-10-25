@@ -1,7 +1,11 @@
 .main-wrapper {
     display: flex;
     width: 99vw;
-    border: 1px solid peru;
+    border: 1px solid peru;   
+}
+
+.main-wrapper > div {
+    align-items: stretch;
 }
 
 .assign-card {
