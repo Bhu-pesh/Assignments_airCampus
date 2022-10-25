@@ -7,11 +7,15 @@
 .assign-card {
     display: flex;
     flex-direction: column;
-    /* width: 2vw; */
+    width: 10vw;
     border: 2px solid orchid;
     border-radius: 3px;
     margin: 10px;
     padding: 15px;
+}
+
+.assign-card > h6 {
+    align-self: flex-end;
 }
 
 a {
@@ -20,9 +24,14 @@ a {
 }
 
 h4 {
-
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family: 'Franklin Gothic Medium';
+    
 }
 
 h6 {
-    
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family: Verdana;
 }
