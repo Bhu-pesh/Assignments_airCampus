@@ -27,11 +27,14 @@ h4 {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     font-family: 'Franklin Gothic Medium';
-    
+    padding-top: .3rem;
+    padding-bottom: .3rem;
 }
 
 h6 {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
     font-family: Verdana;
 }
