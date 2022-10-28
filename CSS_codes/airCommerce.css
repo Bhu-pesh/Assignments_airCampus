@@ -269,3 +269,9 @@ nav {
 .product-self h5>del {
     color: #c4c2c0;
 }
+
+.founder-invision {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1rem;
+}
