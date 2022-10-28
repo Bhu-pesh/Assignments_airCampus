@@ -42,6 +42,7 @@ select {
 
 * {
     font-family: 'Inter';
+    
 }
 
 .search-field {
@@ -80,3 +81,43 @@ select {
     width: 2rem;    
 }
 
+nav {
+    display: flex;
+    width: 100vw;
+    justify-content: center;    
+}
+
+.nav-links {
+    box-sizing: border-box;
+    padding: 1em 1.6rem;
+    font-weight: bold;
+}
+
+.nav-links:hover {    
+    border: 2px solid tomato;
+    background-color: rgba(251, 140, 55, 0.6); 
+}
+
+.nav-links > a {
+    text-decoration: none;
+    color: black;
+}
+
+.just-for-you {
+    background-image: url(../HTML_codes/Banner/banner-1.jpg);    
+    padding: 6rem;
+    background-size: 100%;
+}
+
+.text-area {
+    width: 40%;
+}
+
+.text-area h2#trending {
+    color: salmon;
+}
+
+#fashion-sale {
+    font-weight: 800;
+    font-size: 3.5rem;
+}
