@@ -171,3 +171,26 @@ nav {
     width: 20rem;
     padding-left: 0.2rem;
 }
+
+.item-detail-view {
+    width: 70%;
+    margin-top: 2rem;
+    margin-left: 30%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(8rem, auto);
+    gap: 1rem;
+}
+
+
+.product-img {
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem;
+}
+.individual-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #f0993c;   
+    border-radius: 1rem 1.5rem;
+}
