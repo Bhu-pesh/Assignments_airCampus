@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid grey;
+}
+
+.social-media-share {
+    display: flex;
+    width: 7.2rem;
+    justify-content: space-between;
+    
+}
+
+.item-share {
+    border-radius: 3em;
+    background-color: beige;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.price-lang {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10rem;
+    height: 2rem;
+}
+
+select {
+    height: 2rem;   
+    border: none; 
+}
+
+p {
+    font-family: 'Inter';
+}
