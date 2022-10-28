@@ -198,7 +198,7 @@ nav {
 
 .deal {
     margin-top: 2rem;
-    margin-left: 30%;
+    margin-left: 30%;    
     background-color: rgba(202, 204, 198, .20);
     border-bottom: 2px solid rgba(202, 204, 198, .40);
 }
@@ -224,6 +224,10 @@ nav {
     justify-content: space-between;
 }
 
+.product-desc > input {
+    width:100%;
+}
+
 .day-show {
     display: flex;
     gap: 1rem;
@@ -235,4 +239,20 @@ nav {
     border-radius: 0.5rem;
     flex-basis: 4rem;
     text-align: center;
+}
+
+.product-self {
+    border: 1px solid #cccac8;
+}
+
+.product-self p:nth-of-type(1) {
+    color: salmon;
+}
+
+.product-self p:nth-of-type(2) {
+    color: #c4c2c0;
+}
+
+.product-self h5>del {
+    color: #c4c2c0;
 }
