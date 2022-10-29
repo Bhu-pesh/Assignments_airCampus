@@ -302,6 +302,8 @@ nav {
     text-align:center;    
 }
 
+.ceo h3 { line-height: 0.1rem; }
+
 .summer {
     display: flex;
     flex-direction: column;
@@ -353,4 +355,23 @@ nav {
 
 .next-day p>span {
     font-size: 0.8rem;
+}
+
+.last-card {
+    display: flex;
+    justify-content: flex-start;   
+    margin-top: 2rem;
+}
+
+.card-last {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+          
+}
+.card-last p:nth-of-type(1) { color: salmon; }
+.card-last >img {
+    width: 23vw;
+    height: 15vw;
+    border-radius: 1rem;
 }
