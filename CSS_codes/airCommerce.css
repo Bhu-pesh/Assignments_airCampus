@@ -124,7 +124,7 @@ nav {
 .just-for-you {
     background-image: url(../HTML_codes/Banner/banner-1.jpg);    
     padding: 6rem;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .text-area {
@@ -242,9 +242,21 @@ nav {
 }
 .product-deal > img { width: 30rem; height: 30rem; }
 
-.product-desc > h2 +del {
-    color: salmon;
+.product-desc h2>del {
+    color: rgb(124, 120, 119);
 }
+.product-desc img {
+    width: 5vw;
+}
+
+.product-desc button {
+    padding: 0.5rem 1.5rem ;
+    background-color: rgba(242, 79, 46, 0.60);
+    border-radius: 0.3rem;
+    border:none;
+    color: white;  
+}
+
 .product-desc > h2 {
     color: salmon;
 }
@@ -286,6 +298,14 @@ nav {
     border: 1px solid #cccac8;
     border-radius: 1rem;
     padding: 1rem;
+}
+
+.product-self img {
+    width: 13vw;
+}
+
+.product-self img:nth-of-type(2) {
+    width: 5vw;
 }
 
 .product-self p:nth-of-type(1) {
@@ -411,10 +431,6 @@ nav {
     padding: 5vw 15vw;
 }
 
-.footer-top {
-   
-
-}
 .catogory-list {
     display: flex;
     flex-wrap: wrap;
