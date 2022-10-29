@@ -62,18 +62,37 @@ select {
     border: 1px solid gray;
     padding: .8rem;
     border-radius: 10px;
-   
+    display: flex;
+    justify-content: space-between;
 }
-.content-search img {
+
+.content-search > input {
+    border: none;
+    font-size: 1rem;
+}
+
+.content-search > input:focus {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.content-search button {
     width: 1rem;
-  
+    border:none;
+    background-color: white;
+    margin-right: 1rem;  
+}
+
+.content-search button>img {
+    width: 1.3rem;
 }
 
 #cutomer-side {
     display: flex; 
     width: 15rem;   
     justify-content: space-around;
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
 }
 
 .logo-customer {
@@ -116,6 +135,18 @@ nav {
     color: salmon;
 }
 
+.text-area h2>span {
+    font-size: 1.7em;
+}
+
+.text-area button {
+    padding: 0.5rem 1.5rem ;
+    background-color: rgba(242, 79, 46, 0.60);
+    border-radius: 0.3rem;
+    border:none;
+    color: white;
+}
+
 #fashion-sale {
     font-weight: 800;
     font-size: 3.5rem;
@@ -143,8 +174,12 @@ nav {
     align-self: flex-start;
 }
 .dress-img {
-    border: 1px solid grey;
-    border-radius : 10px;
+    background:rgba(202, 204, 198, .40);
+    border-radius : 0.5rem;
+    border: 1px solid grey;  
+}
+
+.dress-img >img {      
     width: 2rem;
     height: 2rem;
     padding: 1rem;   
@@ -155,8 +190,8 @@ nav {
 }
 
 .dress-img {
-    background-image: url(../HTML_codes/icons/dress.svg);
-    background-size: 90%; 
+   
+    background-size: 100%; 
     background-repeat: no-repeat;
 }
 
