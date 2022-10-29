@@ -189,12 +189,6 @@ nav {
     color:salmon;
 }
 
-.dress-img {
-   
-    background-size: 100%; 
-    background-repeat: no-repeat;
-}
-
 .filter-wrapper {
     display: flex;
     justify-content: flex-end;
@@ -206,6 +200,7 @@ nav {
     width: 20rem;
     padding-left: 0.2rem;
     border-bottom:  2px solid rgba(202, 204, 198, .40);
+    border-radius: 1rem;
 }
 
 .item-detail-view {
@@ -219,9 +214,9 @@ nav {
 }
 
 
-.product-img {
-    width: 2rem;
-    height: 2rem;
+.product-img > img {
+    width: 4rem;
+    height: 4rem;
     padding: 1rem;
 }
 .individual-item {
