@@ -88,6 +88,11 @@ select {
     width: 1.3rem;
 }
 
+.content-search button:hover {
+    width: 3rem;
+    border: 1px solid sandybrown;     
+}
+
 #cutomer-side {
     display: flex; 
     width: 15rem;   
