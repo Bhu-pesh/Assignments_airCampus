@@ -275,3 +275,23 @@ nav {
     grid-template-columns: 1fr 2fr 1fr;
     gap: 1rem;
 }
+
+.ceo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    background-color:rgba(202, 204, 198, .20);
+    border-bottom: 2px solid #c1c2b6;
+}
+
+.identity-img {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}
+
+.ceo  {
+    padding: 1rem 2rem;
+    text-align:center;    
+}
