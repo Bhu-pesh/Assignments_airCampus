@@ -286,10 +286,15 @@ nav {
     border-bottom: 2px solid #c1c2b6;
 }
 
-.identity-img {
+.identity-img > img {
     border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height:6rem;
+}
+
+.ceo > img {
+    width: 3rem;
+    height: 3rem;
 }
 
 .ceo  {
@@ -325,3 +330,27 @@ nav {
 
 .inner-content > p { color: #82827f; }
 
+.services-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+
+.next-day {
+    display: flex;
+    align-items: center;
+       
+}
+
+.next-day > * {
+    padding: 0 1rem;
+}
+
+.next-day > img { 
+    width: 2rem;
+    height: 2rem;
+ }
+
+.next-day p>span {
+    font-size: 0.8rem;
+}
