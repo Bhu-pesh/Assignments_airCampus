@@ -6,7 +6,8 @@
 
 
 header {
-    display: flex;    
+    display: flex; 
+    flex-wrap: wrap;   
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid grey;
@@ -46,6 +47,7 @@ select {
 
 .search-field {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid grey;
@@ -107,7 +109,8 @@ select {
 nav {
     display: flex;
     width: 100vw;
-    justify-content: center;    
+    justify-content: center; 
+    flex-wrap: wrap;   
 }
 
 .nav-links {
@@ -130,6 +133,9 @@ nav {
     background-image: url(../HTML_codes/Banner/banner-1.jpg);    
     padding: 6rem;
     background-size: cover;
+    background-position: center;
+    background-clip: padding-box;
+
 }
 
 .text-area {
@@ -436,9 +442,8 @@ nav {
     padding: 5vw 15vw;
 }
 
-.catogory-list {
-    display: flex;
-    flex-wrap: wrap;
+.catogory-list p, h6 {
+    display: inline;    
     align-items: center;
     align-content: flex-start; 
     /* border: 1px solid white;    */
@@ -485,3 +490,4 @@ nav {
     place-items: center;
     color: rgb(128, 123, 123);
 }
+

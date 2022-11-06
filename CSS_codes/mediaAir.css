@@ -1,0 +1,32 @@
+@media screen and (max-width: 420px) {
+    .social-media-share, 
+    .price-lang {
+        display: none;
+        /* text-align: center; */
+        
+    }
+
+    header > p {
+        margin: 0 auto;
+    }
+
+    .search-field {
+        flex-wrap: wrap;
+    }
+
+    #cutomer-side {
+        display: none;
+    }
+
+    .content-search {
+        width: 90%;
+    }
+
+    .company-name {
+        margin: 0 auto;  
+    }
+
+    nav {
+        display: none;
+    }
+}
