@@ -70,6 +70,7 @@ select {
 
 .content-search > input {
     border: none;
+    width: 85%;
     font-size: 1rem;
 }
 
@@ -132,7 +133,7 @@ nav {
 .just-for-you {
     background-image: url(../HTML_codes/Banner/banner-1.jpg);    
     padding: 6rem;
-    background-size: cover;
+    background-size: 100vw;
     background-position: center;
     background-clip: padding-box;
 
