@@ -70,18 +70,18 @@
         });
 
         // Adding to automatic change color after some time
-        
+        var stopButton;
         document.getElementById('auto-change').addEventListener('click', () =>{
-            var stopButton = setInterval(() =>{
+            stopButton = setInterval(() =>{
                 colorChange();
             }, 2000);
         });
 
         // Stop color change 
 
-        document.getElementById('stop').addEventListener('click', (stopButton) => {
+        document.getElementById('stop').addEventListener('click', (event, stopButton) => {
             console.log(stopButton);
-            clearTimeout(stopButton);
+            clearInterval(1);
         });
         
     </script>
