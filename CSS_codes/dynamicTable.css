@@ -5,13 +5,15 @@ body, html {
 }
 .table-wrapper {
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: center;
+    align-items: center;
 }
 .input-box {
     display: flex;    
     gap: 10px;
-    width:60%;
+    width:65%;
     /* height: 90vh; */
     border: 1px solid teal;
     
@@ -31,4 +33,14 @@ input {
 }
 input :active {
     outline: none;
+}
+table {
+    width: 65%;
+    margin-top: 30px;
+}
+th {
+    /* width:25%; */
+    height: 30px;
+    background: rgb(27, 165, 27);
+    border-radius: 5px;
 }
