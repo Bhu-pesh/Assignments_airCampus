@@ -9,18 +9,18 @@ body, html {
     justify-content: center;
 }
 .input-box {
-    display: flex;
-    align-items: center;
-    gap: 10px;    
-    flex-basis: 33%;
-    width: 100%;
+    display: flex;    
+    gap: 10px;
+    width:60%;
+    /* height: 90vh; */
+    border: 1px solid teal;
     
 }
 .input-item { 
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 33%;
+    width: 30%;
     height: 40px;   
     background: rgb(27, 165, 27);
     border-radius: 5px;
