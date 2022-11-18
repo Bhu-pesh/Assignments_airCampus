@@ -44,3 +44,8 @@ th {
     background: rgb(27, 165, 27);
     border-radius: 5px;
 }
+td {
+    height: 30px;
+    background: rgb(122, 131, 122);
+    border-radius: 5px;
+}

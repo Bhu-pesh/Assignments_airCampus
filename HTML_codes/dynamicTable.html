@@ -10,23 +10,55 @@
 <body>
     <div class="table-wrapper">
         <div class="input-box">
-            <div class="input-item"><input type="text" placeholder="Your Name here..." /> </div>
-            <div class="input-item"><input type="email"  required /> </div>
-            <div class="input-item"><input type="Number"  /> </div>
+            <div class="input-item"><input type="text" placeholder="Your Name here..." id="name" /> </div>
+            <div class="input-item"><input type="email" id="email" required /> </div>
+            <div class="input-item"><input type="Number" id="number" /> </div>
             <button id="add-row">Add Row</button>
         </div>
 
         <!-- table  -->
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Phone No :</th>
-                    <th>Action</th>
-                </tr>
-            </thead>
+        <table id="table">           
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone No :</th>
+                <th>Action</th>
+            </tr>
+
+           
+            
         </table>
     </div>
+
+    <!-- JavaScript -->
+    <script>
+        const table = document.getElementById('table');
+        const newRow = document.createElement('tr');
+        const cell = document.createElement('td');
+
+        // button to add in last cell
+        const button = document.createElement('button');
+        button.innerText = 'Remove';
+        // button.onclick = call a function
+
+        const addRow = document.getElementById('add-row');
+        addRow.addEventListener('click', () => {
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const number = document.getElementById('number').value;
+
+            // adding content to each cell
+            for( const val of [name, email, number]){
+                cell.innerText = val;
+                newRow.appendChild(cell);                
+                console.log(val);
+            }
+            newRow.appendChild(button);
+            table.appendChild(newRow);
+
+
+            // console.log(name, email, number);
+        });
+    </script>
 </body>
 </html>
