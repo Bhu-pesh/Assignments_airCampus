@@ -46,6 +46,7 @@ th {
 }
 td {
     height: 30px;
-    background: rgb(122, 131, 122);
+    background: rgb(235, 236, 235);
     border-radius: 5px;
+    text-align: center;
 }
