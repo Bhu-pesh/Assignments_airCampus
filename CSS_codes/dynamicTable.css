@@ -1,0 +1,29 @@
+body, html {
+    padding: 0;
+    margin: 0;
+
+}
+.input-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;    
+    flex-basis: 33%;
+    width: 70%;
+    
+}
+.input-item { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 30px;   
+    background: rgb(27, 165, 27);
+    border-radius: 5px;
+}
+input {
+    width: 80%;
+    height: 1.2rem;
+}
+input :active {
+    outline: none;
+}
