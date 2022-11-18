@@ -33,32 +33,40 @@
     <!-- JavaScript -->
     <script>
         const table = document.getElementById('table');
-        const newRow = document.createElement('tr');
-        const cell = document.createElement('td');
+        let rowId = 1;    
 
-        // button to add in last cell
-        const button = document.createElement('button');
-        button.innerText = 'Remove';
-        // button.onclick = call a function
-
+        // adding event on button
         const addRow = document.getElementById('add-row');
         addRow.addEventListener('click', () => {
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
             const number = document.getElementById('number').value;
 
+            const newRow = document.createElement('tr');
+
             // adding content to each cell
             for( const val of [name, email, number]){
+                const cell = document.createElement('td');
                 cell.innerText = val;
                 newRow.appendChild(cell);                
                 console.log(val);
             }
+            // button to add in last cell
+            const button = document.createElement('button');
+            button.innerText = 'Remove';
+            button.id = rowId;
+            // button.onclick = removeRow(rowId);
             newRow.appendChild(button);
             table.appendChild(newRow);
-
-
-            // console.log(name, email, number);
+            rowId++;
+            console.log(rowId);
         });
+
+        // Removing row 
+        function removeRow(id) {
+            console.log('I will remove this item', id);
+        }
+
     </script>
 </body>
 </html>
