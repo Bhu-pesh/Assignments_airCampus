@@ -9,14 +9,12 @@ body, html {
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 .input-box {
     display: flex;    
     gap: 10px;
-    width:65%;
-    /* height: 90vh; */
-    border: 1px solid teal;
-    
+    width:65%;   
 }
 .input-item { 
     display: flex;
@@ -51,9 +49,23 @@ td {
     text-align: center;
 }
 
-/* button#add-row {
+button#add-row {
     box-sizing: border-box;
+    width: 10%;
     padding: 5px 2px;
+    color: whitesmoke;
     background: tomato;
+    border-radius: 3px;
+    border: none;
+}
 
-} */
+button.remove {
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    padding: 5px 2px;
+    color: whitesmoke;
+    background: tomato;
+    border-radius: 3px;
+    border: none;
+}
