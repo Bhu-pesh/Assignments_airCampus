@@ -33,9 +33,7 @@
         let rowId = 1;
         
         // removeButton 
-        const button = document.createElement('button');
-        button.innerText = 'Remove';
-        button.id = 'remove-row';
+        
 
         // adding event on button
         const addRow = document.getElementById('add-row');
@@ -54,8 +52,11 @@
                 newRow.appendChild(cell);                
                 console.log(val);
             }
-            // button to add in last cell            
-            button.onclick = removeRow;
+            // button to add in last cell 
+            const button = document.createElement('button');
+            button.innerText = 'Remove';
+            button.id = 'remove-row';           
+            // button.onclick = removeRow;
             newRow.appendChild(button);
             table.appendChild(newRow);
             rowId++;
@@ -67,8 +68,12 @@
             console.log('I will remove this item');
         }      
 
-        let removeButton = document.getElementById('remove-row');
-        
+        const removeButton = document.getElementById('remove-row');
+        removeButton.addEventListener('click', () =>{
+            const row = document.getElementById('1');
+            table.appendChild(row);
+        })
+
 
 
 
