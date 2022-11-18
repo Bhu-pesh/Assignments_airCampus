@@ -3,12 +3,17 @@ body, html {
     margin: 0;
 
 }
+.table-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 .input-box {
     display: flex;
     align-items: center;
     gap: 10px;    
     flex-basis: 33%;
-    width: 70%;
+    width: 100%;
     
 }
 .input-item { 
@@ -16,7 +21,7 @@ body, html {
     align-items: center;
     justify-content: center;
     width: 33%;
-    height: 30px;   
+    height: 40px;   
     background: rgb(27, 165, 27);
     border-radius: 5px;
 }
